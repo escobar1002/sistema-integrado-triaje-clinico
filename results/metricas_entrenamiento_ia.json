@@ -1,0 +1,26 @@
+{
+    "modelo": "RandomForestClassifier",
+    "registros_totales": 10000,
+    "registros_entrenamiento": 8000,
+    "registros_prueba": 2000,
+    "accuracy": 0.933,
+    "random_state": 42,
+    "variables": [
+        "entrada_spo2",
+        "entrada_pa",
+        "entrada_frecuencia_cardiaca",
+        "entrada_frecuencia_respiratoria",
+        "entrada_temperatura",
+        "entrada_dolor",
+        "entrada_edad"
+    ],
+    "objetivo": "nivel_experimental",
+    "distribucion_dataset": {
+        "Nivel III": 5286,
+        "Nivel II": 2506,
+        "Nivel IV": 1944,
+        "Nivel I": 170,
+        "Nivel V": 94
+    },
+    "nota": "Modelo experimental entrenado para imitar las etiquetas del motor matemático con datos sintéticos. No es una herramienta clínica validada."
+}

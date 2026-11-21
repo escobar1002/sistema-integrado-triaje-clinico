@@ -1,0 +1,10 @@
+{
+    "registros_dataset": 10000,
+    "registros_prueba": 2000,
+    "exactitud_random_forest": 0.933,
+    "exactitud_regresion_clasificada": 0.997,
+    "mae_regresion_indice": 1.6859255435124037e-05,
+    "rmse_regresion_indice": 2.0432765584890097e-05,
+    "r2_regresion_indice": 0.9999999778852368,
+    "nota": "Datos sinteticos etiquetados por el modelo matematico; no es validacion clinica."
+}

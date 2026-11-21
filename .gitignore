@@ -1,0 +1,15 @@
+.venv/
+venv/
+.env
+*.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+# Historiales locales y respaldos
+data/registros_simulados.csv
+data/registros_simulados_respaldo.csv
